@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+  <script src="/app.js" defer></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /* *{
+      background-color:hsl(222, 26%, 31%)
+    } */
+
+    .calculator-key{
+      height: 100px;
+      width: 120px;
+      border: 1px solid black ;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    button{
+      height: 20px;
+      width: 27px;
+      font-size:small
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="container" style="display: flex; flex-direction: column; ">
+    <div  type="test" id="display" maxlength="5" style="height: 20px; width: 120px; border: 1px solid black; margin-left: auto; margin-right: auto; margin-bottom: auto; display: flex; align-items: center;"></div>
+  <div class="calculator-key">
+    <div class="first-row">
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn" style="padding-left: 0px;">DEL</button>
+    </div>
+
+    <div class="second-row">
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn">+</button>
+    </div>
+    <div id="third-row">
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn">-</button>
+    </div>
+    <div class="fourth-row">
+      <button class="btn">.</button>
+      <button class="btn">0</button>
+      <button class="btn">/</button>
+      <button class="btn">*</button>
+    </div>
+    <div class="fifth-row">
+      <button class="btn" style="padding: 0; width: 58px;">RESET</button>
+      <button class="btn" style="width: 58px;">=</button>
+    </div>
+  </div>
+</div>
+
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Lim Chin Hong</a>.
+  </div> -->
+</body>
+</html>
